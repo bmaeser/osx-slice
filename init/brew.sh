@@ -47,7 +47,6 @@ installcask libre-office
 installcask macvim
 installcask mou
 installcask skype
-installcask sparrow
 installcask spotify
 installcask slate
 installcask sublime-text
