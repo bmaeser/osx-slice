@@ -42,7 +42,6 @@ installcask google-chrome-canary
 installcask google-drive
 installcask iterm2
 installcask istat-menus
-installcask lime-chat
 installcask libre-office
 installcask macvim
 installcask mou
