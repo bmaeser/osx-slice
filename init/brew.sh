@@ -15,8 +15,11 @@ brew upgrade
 
 ## brew install all the things
 
+brew install coreutils # GNU core utilities (those that come with OS X are outdated)
 brew install pwgen
 brew install htop
+brew install tree
+brew install bash-completion
 
 
 
