@@ -19,7 +19,13 @@ brew install coreutils # GNU core utilities (those that come with OS X are outda
 brew install pwgen
 brew install htop
 brew install tree
+brew install git
 brew install bash-completion
+brew install zsh
+brew install bash
+brew install findutils
+brew install wget
+brew install ack
 
 
 
