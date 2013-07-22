@@ -21,14 +21,23 @@ brew install htop
 brew install tree
 brew install git
 brew install bash-completion
-brew install zsh
-brew install bash
 brew install findutils
 brew install wget
 brew install ack
 
+brew install zsh
+if [ $? -eq 0 ]; then
+	echo "remember to put /usr/local/bin/zsh into /etc/shells"
+	echo "if you want zsh as your default shell, please:"
+	echo "chsh -s /usr/local/bin/zsh"
+fi
 
-
+brew install bash
+if [ $? -eq 0 ]; then
+	echo "remember to put /usr/local/bin/bash into /etc/shells"
+	echo "if you want bash as your default shell, please:"
+	echo "chsh -s /usr/local/bin/bash"
+fi
 
 # brwe cask install all the things
 brew tap phinze/homebrew-cask
