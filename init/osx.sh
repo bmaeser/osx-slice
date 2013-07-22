@@ -44,6 +44,10 @@ defaults write com.apple.loginwindow TALLogoutSavesState -bool false
 # Disable menu bar transparency
 defaults write NSGlobalDomain AppleEnableMenuBarTransparency -bool false
 
+# Disable Mac Chime / Sound on Startup
+#sudo nvram SystemAudioVolume=%00﻿
+# deactivate
+#sudo nvram -d SystemAudioVolume
 
 #################################################
 ##  Trackpad, Mouse, Keyboard and other Input  ##
