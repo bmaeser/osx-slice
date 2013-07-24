@@ -63,6 +63,7 @@ installcask istat-menus
 installcask libre-office
 installcask macvim
 installcask mou
+installcask paintbrush
 installcask skype
 installcask spotify
 installcask slate
