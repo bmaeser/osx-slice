@@ -1,0 +1,48 @@
+# i am a comment
+; so am i
+
+# key-values are ini-style
+
+# all the same and valid:
+
+
+; out = 20
+; out=20
+; out:20
+; out: 20
+
+# allowed settings for mute:
+
+# true:
+; mute=true
+; mute=1
+; mute=on
+; mute=yes
+
+# false:
+; mute=false
+; mute=0
+; mute=off
+; mute=no
+
+
+# headphones
+[hf]
+out:13
+alert:15
+
+# guys play ping-pong at the office
+[pp]
+out:13
+alert:10
+
+# i am alone at the office a have no headphones
+[alone]
+out:50
+alert:65
+
+[silence]
+out = 0
+in = 0
+alert = 0
+mute=True
