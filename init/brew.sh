@@ -75,3 +75,14 @@ installcask vlc
 
 # Remove outdated versions from the cellar
 brew cleanup
+
+
+
+# remind me to do other stuff that can not be automated
+echo "please install manually, if not already present:"
+echo ""
+echo "function flip:   (http://kevingessner.com/software/functionflip/)"
+echo ""
+echo "here are some iterm2 color themes:"
+echo "https://github.com/baskerville/iTerm-2-Color-Themes"
+echo "https://github.com/mbadolato/iTerm2-Color-Schemes"
