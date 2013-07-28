@@ -69,6 +69,7 @@ installcask spotify
 installcask slate
 installcask sublime-text
 installcask textmate
+installcask ukelele
 installcask vagrant
 installcask virtualbox
 installcask vlc
