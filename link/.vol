@@ -28,13 +28,13 @@
 
 # headphones
 [hf]
-out:13
-alert:15
+out:25
+alert:20
 
 # guys play ping-pong at the office
 [pp]
-out:13
-alert:10
+out:30
+alert:20
 
 # i am alone at the office a have no headphones
 [alone]

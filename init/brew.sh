@@ -73,6 +73,7 @@ installcask ukelele
 installcask vagrant
 installcask virtualbox
 installcask vlc
+installcask xld
 
 # Remove outdated versions from the cellar
 brew cleanup
